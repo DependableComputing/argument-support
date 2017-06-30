@@ -1,0 +1,176 @@
+# Files/directories that are usually generated and should be ignored
+
+build
+library
+test
+tests
+bin
+doc
+*.lock
+*.test*
+[Pp]rivate
+[Ll]ocal
+[Rr]epositories
+
+
+## Compiled files (C, Fortran, Ada, etc.)
+
+*.o
+*.a
+*.dylib
+
+
+## BBEdit
+
+*.bbprojectd
+
+
+## SPARK specific files
+
+spark.rep
+*.fdl
+*.idx
+*.lst
+*.rls
+*.siv
+*.slg
+*.sli
+*.smf
+*.sum
+*.vcg
+*.vct
+*.vlg
+*.vsm
+
+
+## Created by LaTeX processes
+
+*.aux
+*.log
+*.glo
+*.idx
+*.ist
+*.out
+
+
+## Compressed/bundled files
+
+*.7z
+*.zip
+*.tgz
+*.tar
+*.dmg
+
+
+### Java
+
+*.jar
+*.war
+*.ear
+
+
+## Created by PVS
+
+.pvscontext
+pvsbin
+
+
+## Safety case build tools
+
+renders
+history
+
+
+## Eclipse
+
+.metadata
+.lock
+
+
+## Java
+
+*.class
+
+
+## Ruby
+
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+
+
+### YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+
+## Visual Studio
+
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+
+## Subversion
+
+.svn
+
+
+# Temporary files
+
+*~
+~$*
+*.bak
+*.back
+*.00[0-9]
+tmp
+temp-header.md
+
+## MS Office
+
+~$*
+
+
+# System specific files
+
+.DS_Store
+[Tt]humbs.db
+
+
+# git
+
+.gitattributes
+
+
